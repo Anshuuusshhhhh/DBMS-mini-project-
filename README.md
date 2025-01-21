@@ -1,3 +1,10 @@
+This Project is about Database Management of Stationary Store called as Giggly Bits for managing its inventory and its users.
+In this Project we have created tables of product_category, product_inventory, Discount, product, order_detail,order_item,user, shopping_session, cart_item, user_address, user_payment, payment_details and shipping.
+We also have E-R Diagram to understand the flow between the tables.
+
+
+
+
 create database project;
 use project;
 create table product_category(pc_id numeric(10),name varchar(20), description varchar(50), primary key(pc_id));
